@@ -8,18 +8,18 @@ namespace KnowledgeCheck1_Calculator
 {
     public class Calculator
     {
-        public int Add(int first, int second)
+        public double Add(double first, double second)
         {
             return first + second;
         }
 
-        public int Subtract(int first, int second)
+        public double Subtract(double first, double second)
         {
             return first - second;
         }
 
-        //CHANGED
-        public int Multiply(int first, int second)
+        
+        public double Multiply(double first, double second)
         {
             return first * second;
 
